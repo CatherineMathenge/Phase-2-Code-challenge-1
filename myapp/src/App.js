@@ -64,7 +64,6 @@ const App = () => {
     <div>
       <h1>Transactions</h1>
       <form onSubmit={handleSubmit}>
-        {/* Input fields for date, description, category, and amount */}
         <button type="submit">Add Transaction</button>
       </form>
       <input
